@@ -1,0 +1,13 @@
+# --- secrets ---
+.env
+*.key
+
+# --- real / private data (never commit) ---
+DummyStatement.pdf
+DummyStatement.csv
+*.csv
+
+# --- python junk ---
+.venv/
+__pycache__/
+*.pyc
